@@ -1,9 +1,13 @@
+# not allowed
 *.*
+*.pdf
+*.ppt
+**/bin/
+
+# allowed
 !.gitignore
 !*.cpp
 !*.h
 !*.md
 !*.txt
-*.pdf
-*.ppt
 !DSA-LAB_Manual-2026.pdf
