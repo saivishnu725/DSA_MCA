@@ -36,7 +36,7 @@ void print_column(int row, int col, int a[])
 	}
 	// search
 	int r, c;
-	cout << " Enter row and column of the search element: ";
+	cout << "Enter row and column of the search element: ";
 	cin >> r >> c;
 
 	if (r > row || c > col)
@@ -63,7 +63,7 @@ void print_diagonal(int row, int col, int a[])
 	}
 	// search
 	int r, c;
-	cout << " Enter row and column of the diagonal search element: ";
+	cout << "Enter row and column of the diagonal search element: ";
 	cin >> r >> c;
 
 	if (r > row || c > col)
@@ -128,7 +128,7 @@ void tridiagonal(int row, int col, int a[])
 	{
 		for (int j = 0; j < col; j++)
 		{
-			if ((i - j) > 1 || (i - j) < -1)
+			if (abs(i - j) > 1)
 			{
 				a[(i * col) + j] = 0;
 				continue;
@@ -153,8 +153,6 @@ void row_major(int row, int col, int a[])
 
 void column_major(int row, int col, int a[])
 {
-	// TODO: technically correct but not accepting values in regular row major fashion
-	// so i have to see if thats the correct way to doing it
 	for (int i = 0; i < col; i++)
 	{
 		for (int j = 0; j < row; j++)
@@ -241,6 +239,7 @@ int main()
 
 		// exit
 		case 7:
+			cout << "Exiting..." << endl;
 			return 0;
 
 		// default
