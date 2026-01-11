@@ -14,7 +14,7 @@ void print_arr(int row, int col, int a[])
 
 	// search
 	int r, c;
-	cout << " Enter row and column of the search element: ";
+	cout << "Enter row and column of the search element: ";
 	cin >> r >> c;
 	if (r > row || c > col)
 	{
@@ -45,7 +45,7 @@ void print_column(int row, int col, int a[])
 		return;
 	}
 	cout << "Element in " << r << "x" << c << ": ";
-	cout << a[(r * row) + c] << endl;
+	cout << a[(c * row) + r] << endl;
 }
 
 void print_diagonal(int row, int col, int a[])
@@ -160,7 +160,7 @@ void column_major(int row, int col, int a[])
 		for (int j = 0; j < row; j++)
 		{
 			cout << "Enter the value in " << j << "x" << i << ": ";
-			cin >> a[(i * col) + j];
+			cin >> a[(i * row) + j];
 		}
 	}
 }
