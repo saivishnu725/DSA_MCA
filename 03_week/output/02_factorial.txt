@@ -1,0 +1,5 @@
+Enter the number: 5
+Factorial of 5: 120
+
+Enter the number: 10
+Factorial of 10: 3628800

@@ -1,0 +1,8 @@
+Number of disks: 3
+1 - Disk 1 moved from A to C
+2 - Disk 2 moved from A to B
+3 - Disk 1 moved from C to B
+4 - Disk 3 moved from A to C
+5 - Disk 1 moved from B to A
+6 - Disk 2 moved from B to C
+7 - Disk 1 moved from A to C
