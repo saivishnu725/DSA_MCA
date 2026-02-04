@@ -69,31 +69,40 @@ int main()
 
     cout << "1 push\n2 pop\n3 display\n4 peek\n0 exit\n";
 
-    while (true)
+    do
     {
         cout << "enter choice: ";
         cin >> ch;
 
-        if (ch == 1)
+        switch (ch)
         {
+        case 1:
             cout << "enter element: ";
             cin >> x;
             s.push(x);
-        }
-        else if (ch == 2)
-            s.pop();
-        else if (ch == 3)
-            s.display();
-        else if (ch == 4)
-            cout << "top element: " << s.peek() << "\n";
-        else if (ch == 0)
             break;
-    }
+        case 2:
+            s.pop();
+            break;
+        case 3:
+            s.display();
+            break;
+        case 4:
+            cout << "top element: " << s.peek() << "\n";
+            break;
+        case 0:
+            break;
+        default:
+            cout << "invalid choice\n";
+            break;
+        }
+    } while (ch != 0);
+
     return 0;
 }
 
 /*
-$ ./01_stack                                                                                        [17:00:24]
+$ ./01_stack.cpp
 1 push
 2 pop
 3 display
