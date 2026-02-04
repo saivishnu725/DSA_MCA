@@ -1,0 +1,13 @@
+Enter number of terms in first polynomial: 2
+Enter terms (coefficient and exponent) in descending order of exponent:
+2 5
+1 0
+
+Enter number of terms in second polynomial: 3
+Enter terms (coefficient and exponent) in descending order of exponent:
+3 10
+2 5
+1 1
+
+Resultant Polynomial after Addition:
+3x^10 + 4x^5 + 1x^1 + 1x^0

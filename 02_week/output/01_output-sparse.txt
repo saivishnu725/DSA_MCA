@@ -1,0 +1,12 @@
+Enter the row: 3
+Enter the column: 3
+Enter count of non-zero elements (<= 9): 2
+Enter the row: 0
+Enter the column: 0
+Enter the value: 1
+Enter the row: 0
+Enter the column: 2
+Enter the value: 2
+1 0 2
+0 0 0
+0 0 0
