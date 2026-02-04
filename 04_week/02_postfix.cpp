@@ -81,7 +81,7 @@ int main()
 }
 
 /*
-$ ./02_postfix                                                                                      [17:00:45]
+$ ./02_postfix
 enter infix expression: a+b*c
 postfix expression: abc*+
 */

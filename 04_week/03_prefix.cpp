@@ -100,7 +100,7 @@ int main()
 }
 
 /*
-$ ./03_prefix.cpp                                                                                   [17:02:42]
+$ ./03_prefix.cpp
 enter infix expression: (a+b)*c
 prefix expression: *+abc
 */
